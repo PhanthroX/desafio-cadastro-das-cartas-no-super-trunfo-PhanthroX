@@ -28,7 +28,7 @@ int main() {
     printf("Informe a sigla do estado: ");
     scanf("%2s", estado1);
     limparBuffer();
-
+ 
     printf("Informe o código da carta: ");
     fgets(codigo1, 10, stdin);
     codigo1[strcspn(codigo1, "\n")] = '\0';
